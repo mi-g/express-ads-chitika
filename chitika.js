@@ -22,5 +22,11 @@ exports.settings = [{
 	placeholder: "Publisher ID",
 	defaults: "XXX",
 }];
-exports.bannerSettings = [];
+exports.bannerSettings = [{
+	name: "sid",
+	title: "Chitika SID",
+	type: "text",
+	placeholder: "SID (optional)",
+	defaults: "",
+}];
 exports.template = fs.readFileSync(__dirname+"/template.ejs","utf-8");

@@ -11,7 +11,7 @@
 			"publisher" : "<%= settings.pubid %>",
 			"width" : <%= size.width %>,
 			"height" : <%= size.height %>,
-			"sid" : "<%= campaign.id+'.'+banner.id+'.'+inventory.id %>"
+			"sid" : "<%= banner.addon.sid || (campaign.id+'.'+banner.id+'.'+inventory.id) %>"
 		};
 		var placement_id = window.CHITIKA.units.length;
 		window.CHITIKA.units.push(unit);
