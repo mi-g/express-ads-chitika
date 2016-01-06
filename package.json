@@ -1,8 +1,24 @@
 {
 	"name": "express-ads-chitika",
-	"version": "0.0.1-alpha.1",
-	"private": "true",
+	"version": "0.0.1",
 	"main": "chitika.js",
-	"dependencies": {
-	}
+	"description":"Chitika add-on for express-ads: Ads distribution and management module for Express",
+	"keywords":[
+		"express",
+		"ads",
+		"express-ads",
+		"chitika",
+		"adsense",
+		"openx",
+		"dfp"
+   	],
+   	"homepage": "https://github.com/mi-g/express-ads-chitika",
+   	"bugs": "https://github.com/mi-g/express-ads-chitika/issues",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mi-g/express-ads-chitika.git"
+	},
+   	"author":"Michel Gutierrez",
+	"contributors": "https://github.com/mi-g/express-ads-chitika/graphs/contributors",
+	"license":"MPL-2.0"
 }
