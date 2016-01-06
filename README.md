@@ -1,4 +1,4 @@
 Express Ads - Chitika extension
 ===============================
 
-The module extends Express Ads to allow serving ads from Chitika
+The module extends [express-ads](https://github.com/mi-g/express-ads) to allow serving ads from Chitika
