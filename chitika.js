@@ -20,7 +20,7 @@ exports.settings = [{
 	title: "Publisher ID",
 	type: "text",
 	placeholder: "Publisher ID",
-	defaults: "XXX",
+	defaults: "",
 }];
 exports.bannerSettings = [{
 	name: "sid",
